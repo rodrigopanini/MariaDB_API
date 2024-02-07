@@ -10,6 +10,7 @@
   	},
 
 3-Criar classe _DbContext
+
 public class _DbContext : DbContext
 {
     //public DbSet<TabelaAqui> TabelaAqui { get; set; }
