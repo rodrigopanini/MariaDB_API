@@ -1,6 +1,6 @@
 # Passos para criar um projeto API com banco de dados MariaDB
 
-1-Instalar Pacotes Nugets
+1-Instalar Pacotes NuGet
 	Pomelo.EntityFrameworkCore.MySql 8.0.0
 	Microsoft.EntityFrameworkCore.Tools 8.0.0
 
@@ -31,7 +31,7 @@
 4-Configurar o serviço no Program.cs
 builder.Services.AddDbContext<_DbContext>();
 
-5-Criar a migration
+5-Criar a primeira migration
 add-migration CriarBancoDeDados
 
 6-Aplicar migration
