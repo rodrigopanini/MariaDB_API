@@ -10,7 +10,7 @@
   	},
 
 3-Criar classe _DbContext
-
+```C#
 public class _DbContext : DbContext
 {
     //public DbSet<TabelaAqui> TabelaAqui { get; set; }
@@ -26,6 +26,7 @@ public class _DbContext : DbContext
         OptionsBuilder.UseMySql(ConnectionString, ServerVersion.AutoDetect(ConnectionString));
     }
 }
+```
 
 4-Configurar o serviço no Program.cs
 builder.Services.AddDbContext<_DbContext>();
